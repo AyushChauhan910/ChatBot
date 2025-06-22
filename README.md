@@ -192,10 +192,3 @@ This is a prototype chatbot designed for educational purposes. To contribute:
 
 ## License
 This project is created for educational purposes. Financial data is sourced from public SEC filings.
-
-## Contact
-For questions or suggestions about this chatbot prototype, please refer to the course materials or instructor guidelines.
-
----
-*Last Updated: June 22, 2025*
-*Version: 1.0*
