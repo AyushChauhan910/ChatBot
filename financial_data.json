@@ -1,0 +1,101 @@
+{
+  "companies": {
+    "microsoft": {
+      "name": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "fiscal_years": {
+        "2024": {
+          "revenue": 245122,
+          "net_income": 88136,
+          "total_assets": null,
+          "total_liabilities": null,
+          "operating_cash_flow": null
+        },
+        "2023": {
+          "revenue": 211915,
+          "net_income": 72361,
+          "total_assets": 420582,
+          "total_liabilities": 205739,
+          "operating_cash_flow": 87582
+        }
+      },
+      "metrics": {
+        "revenue_growth_2024": 15.7,
+        "profit_margin_2024": 36.0,
+        "profit_margin_2023": 34.1
+      }
+    },
+    "tesla": {
+      "name": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "fiscal_years": {
+        "2023": {
+          "revenue": 96773,
+          "net_income": null,
+          "total_assets": null,
+          "total_liabilities": null,
+          "operating_cash_flow": 13256
+        },
+        "2022": {
+          "revenue": 81462,
+          "net_income": 12556,
+          "total_assets": 82338,
+          "total_liabilities": 40560,
+          "operating_cash_flow": 14724
+        },
+        "2021": {
+          "revenue": 53823,
+          "net_income": 5524,
+          "total_assets": 62131,
+          "total_liabilities": 29663,
+          "operating_cash_flow": 11497
+        }
+      },
+      "metrics": {
+        "cagr_2021_2023": 34.0,
+        "revenue_growth_2022": 51.4,
+        "debt_to_assets_2022": 49.3
+      }
+    },
+    "apple": {
+      "name": "Apple Inc.",
+      "ticker": "AAPL",
+      "fiscal_years": {
+        "2024": {
+          "revenue": 391035,
+          "net_income": null,
+          "total_assets": null,
+          "total_liabilities": null,
+          "operating_cash_flow": null
+        },
+        "2023": {
+          "revenue": 383285,
+          "net_income": null,
+          "total_assets": null,
+          "total_liabilities": null,
+          "operating_cash_flow": null
+        },
+        "2022": {
+          "revenue": 394328,
+          "net_income": null,
+          "total_assets": null,
+          "total_liabilities": null,
+          "operating_cash_flow": null
+        }
+      },
+      "metrics": {
+        "revenue_growth_2024": 2.0,
+        "revenue_decline_2023": -2.8
+      }
+    }
+  },
+  "data_source": "SEC 10-K Filings",
+  "extraction_date": "2025-06-22",
+  "currency": "USD Millions",
+  "notes": [
+    "Some financial data points are incomplete due to filing format variations",
+    "Tesla shows the highest growth rate among the three companies",
+    "Apple maintains the largest revenue base despite slower recent growth",
+    "Microsoft demonstrates superior profitability margins"
+  ]
+}

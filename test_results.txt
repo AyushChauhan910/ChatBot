@@ -1,0 +1,146 @@
+Financial Chatbot Test Results
+====================================
+
+Test Date: June 22, 2025
+Test Environment: Python 3.x
+Testing Method: Manual testing with predefined queries
+
+PREDEFINED QUERY TESTS
+======================
+
+Test 1: Total Revenue Query
+---------------------------
+Input: "What is the total revenue?"
+Expected: Combined revenue calculation
+Actual Output: "Total combined revenue: Microsoft (2024): $245,122M, Tesla (2023): $96,773M, Apple (2024): $391,035M. Combined total: $732,930M"
+Status: ✅ PASS
+
+Test 2: Highest Revenue Company
+-------------------------------
+Input: "Which company has the highest revenue?"
+Expected: Apple identified as leader
+Actual Output: "Apple has the highest revenue at $391,035M in fiscal 2024, followed by Microsoft at $245,122M (2024), and Tesla at $96,773M (2023)."
+Status: ✅ PASS
+
+Test 3: Tesla Growth Rate
+-------------------------
+Input: "What is Tesla's growth rate?"
+Expected: Tesla CAGR information
+Actual Output: "Tesla demonstrates exceptional growth with a compound annual growth rate (CAGR) of approximately 34.0% from 2021-2023, growing from $53,823M to $96,773M in revenue."
+Status: ✅ PASS
+
+Test 4: Microsoft Net Income Change
+-----------------------------------
+Input: "How has Microsoft's net income changed?"
+Expected: Microsoft income trend analysis
+Actual Output: "Microsoft's net income increased from $72,361M in 2023 to $88,136M in 2024, representing a 21.8% increase."
+Status: ✅ PASS
+
+Test 5: Revenue Comparison
+--------------------------
+Input: "Compare revenue across companies"
+Expected: Detailed comparison of all three companies
+Actual Output: "Revenue Comparison (Latest Available Year):
+        1. Apple (2024): $391,035M - Market leader with largest revenue base
+        2. Microsoft (2024): $245,122M - Strong enterprise and cloud growth
+        3. Tesla (2023): $96,773M - Fastest growing but smallest of the three
+
+        Growth Patterns: Tesla shows highest growth rate (~34% CAGR), Microsoft shows steady growth (15.7% YoY), Apple shows modest recovery (2.0% growth in 2024)."
+Status: ✅ PASS
+
+Test 6: Apple Performance
+-------------------------
+Input: "What is Apple's recent performance?"
+Expected: Apple's recent financial performance summary
+Actual Output: "Apple's recent performance shows recovery with 2.0% revenue growth in 2024 ($391,035M) after a decline in 2023. Despite slower growth compared to competitors, Apple maintains the largest revenue base among the three tech giants."
+Status: ✅ PASS
+
+PARTIAL MATCHING TESTS
+======================
+
+Test 7: Partial Tesla Query
+---------------------------
+Input: "Tesla growth"
+Expected: Tesla growth information
+Actual Output: "Tesla demonstrates exceptional growth with a compound annual growth rate (CAGR) of approximately 34.0% from 2021-2023, growing from $53,823M to $96,773M in revenue."
+Status: ✅ PASS
+
+Test 8: Partial Microsoft Query
+-------------------------------
+Input: "Microsoft income"
+Expected: Microsoft income information
+Actual Output: "Microsoft's net income increased from $72,361M in 2023 to $88,136M in 2024, representing a 21.8% increase."
+Status: ✅ PASS
+
+Test 9: Help Command
+--------------------
+Input: "help"
+Expected: List of available commands
+Actual Output: Available Financial Queries with detailed list
+Status: ✅ PASS
+
+EDGE CASE TESTS
+===============
+
+Test 10: Unknown Query
+----------------------
+Input: "What is Google's revenue?"
+Expected: Error message with available queries
+Actual Output: "Sorry, I can only provide information on predefined queries. Try asking: [list of available queries]"
+Status: ✅ PASS
+
+Test 11: Empty Input
+--------------------
+Input: ""
+Expected: Prompt for input
+Actual Output: Handled gracefully by input validation
+Status: ✅ PASS
+
+Test 12: Case Insensitive
+-------------------------
+Input: "WHAT IS THE TOTAL REVENUE?"
+Expected: Same as lowercase version
+Actual Output: "Total combined revenue: Microsoft (2024): $245,122M, Tesla (2023): $96,773M, Apple (2024): $391,035M. Combined total: $732,930M"
+Status: ✅ PASS
+
+PERFORMANCE TESTS
+=================
+
+Response Time: All queries responded within <100ms
+Memory Usage: Minimal memory footprint
+Error Handling: All edge cases handled gracefully
+
+SUMMARY
+=======
+Total Tests Conducted: 12
+Tests Passed: 12 ✅
+Tests Failed: 0 ❌
+Success Rate: 100%
+
+ISSUES IDENTIFIED
+=================
+1. Limited to predefined queries only
+2. No natural language processing capabilities
+3. Data is static and hardcoded
+4. No context awareness between queries
+5. No data validation for financial figures
+
+RECOMMENDATIONS FOR IMPROVEMENT
+===============================
+1. Implement fuzzy string matching for better query recognition
+2. Add more financial metrics (debt ratios, margins, etc.)
+3. Include data source citations
+4. Add trending analysis capabilities
+5. Implement conversation context memory
+6. Add data validation and error checking
+7. Include more companies in the dataset
+
+FLASK WEB VERSION TESTING
+=========================
+- Web interface loads successfully
+- Chat functionality works as expected
+- Example queries clickable and functional
+- API endpoints respond correctly
+- Error handling works properly
+
+Test completed successfully on June 22, 2025
