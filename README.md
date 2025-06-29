@@ -1,4 +1,4 @@
-# Financial Analysis Chatbot - Documentation
+# Financial Analysis Chatbot
 
 ## Overview
 This is a simplified AI chatbot prototype designed for financial analysis queries about three major technology companies: Microsoft, Tesla, and Apple. The chatbot responds to predefined queries using financial data extracted from their 10-K SEC filings.
@@ -192,10 +192,3 @@ This is a prototype chatbot designed for educational purposes. To contribute:
 
 ## License
 This project is created for educational purposes. Financial data is sourced from public SEC filings.
-
-## Contact
-For questions or suggestions about this chatbot prototype, please refer to the course materials or instructor guidelines.
-
----
-*Last Updated: June 22, 2025*
-*Version: 1.0*
